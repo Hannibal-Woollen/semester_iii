@@ -13,4 +13,7 @@ u = (-(np.power(x, 2) + np.power(y, 2))*y)
 v = ((np.power(x,2) + np.power(y,2)*x))
 w = x * z
 ax.quiver(x, y, z, u, v, w, length=0.3)
+ax.set_xlabel("x")
+ax.set_ylabel("y")
+ax.set_zlabel("z")
 plt.show()
